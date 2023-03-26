@@ -143,3 +143,35 @@ max-width: 240px;
 font-size: 14px;
 color: rgb(188, 174, 174);
 }
+
+.audio-holder{
+    background-color: rgba(63, 62, 62, 0.315);
+    display: flex;
+    margin-top: 60px;
+}
+
+.audio-container{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+padding: 0 34px;
+flex: 1;
+}
+
+.control{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.control i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febe02;
+    color: white;
+}
+
