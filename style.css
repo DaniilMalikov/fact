@@ -1,8 +1,9 @@
-*{
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+    
+    *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .container{
     max-width: 1080px;
     margin: 0 auto;
@@ -138,14 +139,18 @@ letter-spacing: 0.5px;
     max-width: 650;
 }
 
+.audio-holder{
+    width: 540px;
+}
+
 .about-desk{
 max-width: 240px;
 font-size: 14px;
 color: rgb(188, 174, 174);
-}
+ }
 
-.audio-holder{
-    background-color: rgba(63, 62, 62, 0.315);
+.audio-block{
+    background-color: rgba(91, 143, 178, 0.315);
     display: flex;
     margin-top: 60px;
 }
