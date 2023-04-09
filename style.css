@@ -77,18 +77,18 @@ line-height: 1;
 }
 
 .join{
-background-color: #febe02;
+background-color: #feed02;
 position: absolute;
 right: 0;
 bottom: 0;
-width: 110px;
+width: 130px;
 height: 110px;
 padding: 16px;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
 align-items: flex-start;
-color: black;
+color: rgb(255, 255, 255);
 font-weight: bold;
 text-decoration: none;
 border-radius: 6px;
@@ -150,7 +150,7 @@ color: rgb(188, 174, 174);
  }
 
 .audio-block{
-    background-color: rgba(91, 143, 178, 0.315);
+    background-color: rgba(68, 168, 235, 0.315);
     display: flex;
     margin-top: 60px;
 }
@@ -177,7 +177,7 @@ flex: 1;
     justify-content: center;
     align-items: center;
     background-color: #febe02;
-    color: white;
+    color: rgb(174, 13, 255);
 }
 
 .course-section-title{
